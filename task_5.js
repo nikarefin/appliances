@@ -22,7 +22,7 @@ class Lamp extends Appliance {
     appliance = 'Лампа';
 }
 
-class TV extends Appliance {
+class Tv extends Appliance {
     constructor(size, matrix) {
         super();
         this.size = size;
@@ -59,7 +59,7 @@ lamp.power = 60;
 lamp.type = 'LED';
 lamp.plugIn();
 
-let tv = new TV();
+let tv = new Tv();
 tv.power = 120;
 tv.size = '55';
 tv.matrix = 'OLED';
